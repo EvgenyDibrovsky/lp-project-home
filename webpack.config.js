@@ -53,5 +53,6 @@ module.exports = {
     static: path.join(__dirname, "dist"),
     compress: true,
     port: 9000,
+    liveReload: true,
   },
 };
