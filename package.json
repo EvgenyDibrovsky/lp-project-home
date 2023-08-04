@@ -1,9 +1,22 @@
 {
-  "name": "project",
+
+  "name": "project-home",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://evgenydibrovsky.github.io/lp-project-home/",
+
   "scripts": {
     "build": "tailwindcss -i ./src/main.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgenyDibrovsky/lp-project-home"
+  },
+  "keywords": [],
+  "author": "Evgeny Dibrovsky <ed190687@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgenyDibrovsky/lp-project-home/issue"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.2"
