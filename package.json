@@ -2,7 +2,7 @@
   "name": "lp-project-home",
   "version": "1.0.0",
   "description": "LP Project Home",
-  "homepage": "https://github.com/EvgenyDibrovsky/lp-project-home",
+  "homepage": "https://github.com/EvgenyDibrovsky/lp-project-home/",
   "main": "postcss.config.js",
   "scripts": {
     "start": "webpack serve",
