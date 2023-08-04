@@ -1,39 +1,59 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
-  entry: "./src/index.js",
+  entry: "./src/js/index.js",
   output: {
-    filename: "main.js",
+    filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
-    clean: true, // to clean the dist folder before each build
-  },
-  module: {
-    rules: [
-      {
-        test: /\.css$/i,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
-      },
-      {
-        test: /\.(png|jpe?g|gif|svg)$/i,
-        type: "asset/resource",
-        generator: {
-          filename: "images/[hash][ext][query]",
-        },
-      },
-    ],
+    clean: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "src/index.html", // указываете путь до вашего исходного index.html
+      template: "./src/index.html",
+      inject: "body",
     }),
-    new MiniCssExtractPlugin(),
+    new CopyPlugin({
+      patterns: [
+        { from: "src/fonts", to: "fonts" },
+        { from: "src/image", to: "image" },
+      ],
+    }),
   ],
-  devServer: {
-    contentBase: path.join(__dirname, "dist"),
-    compress: true,
-    port: 9000,
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          "style-loader",
+          "css-loader",
+          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: [require("tailwindcss"), require("autoprefixer")],
+              },
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: "asset/resource",
+      },
+    ],
+  },
+  resolve: {
+    alias: {
+      "@fonts": path.resolve(__dirname, "src/fonts"),
+      "@images": path.resolve(__dirname, "src/image"),
+      "@css": path.resolve(__dirname, "main.css"),
+    },
   },
 };
