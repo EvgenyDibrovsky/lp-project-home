@@ -1,24 +1,33 @@
 {
-
-  "name": "project-home",
+  "name": "lp-project-home",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://evgenydibrovsky.github.io/lp-project-home/",
-
+  "description": "LP Project Home",
+  "main": "tailwind.config.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/main.css -o ./dist/style.css --watch"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EvgenyDibrovsky/lp-project-home"
+    "url": "git+https://github.com/EvgenyDibrovsky/lp-project-home.git"
   },
   "keywords": [],
-  "author": "Evgeny Dibrovsky <ed190687@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EvgenyDibrovsky/lp-project-home/issue"
+    "url": "https://github.com/EvgenyDibrovsky/lp-project-home/issues"
   },
+  "homepage": "https://github.com/EvgenyDibrovsky/lp-project-home#readme",
   "devDependencies": {
-    "tailwindcss": "^3.3.2"
+    "autoprefixer": "^10.4.14",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss": "^8.4.27",
+    "postcss-loader": "^7.3.3",
+    "style-loader": "^3.3.3",
+    "tailwindcss": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
