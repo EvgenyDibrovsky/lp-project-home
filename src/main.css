@@ -306,7 +306,7 @@
     transform-origin: left;
     transition: transform 0.3s;
   }
-  .hover-line.current-mrnu-header::after,
+  .hover-line.current-menu-header::after,
   .hover-line:hover::after {
     transform: scaleX(1);
   }
@@ -323,16 +323,16 @@
     transform-origin: right;
     transition: transform 0.3s;
   }
-  .hover-line-top.current-mrnu-header::before,
+  .hover-line-top.current-menu-header::before,
   .hover-line-top:hover::before {
     transform: scaleX(1);
   }
 
-  a.current-mrnu-footer {
-    @apply text-orange-200 ml-4;
+  a.current-menu-footer {
+    @apply text-orange-200 lg:ml-4;
   }
   .contact-form input[type='checkbox'] {
-    @apply appearance-none cursor-pointer inline-flex h-5 w-5 pl-[0.8rem] border-white  border-4 outline-2 outline;
+    @apply appearance-none cursor-pointer inline-flex h-4 w-4 pl-[0.5rem] border-white  border-4 outline-2 outline;
   }
   .contact-form input[type='checkbox']:checked {
     @apply bg-textBase  border-white  border-4;

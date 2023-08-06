@@ -31,7 +31,7 @@
                 <img src="./images/logo-dark.svg" alt="Logo" />
               </a>
               <button class="xl:hidden" id="close-menu">
-                <svg class="w-6 h-6 text-iconDark">
+                <svg class="w-8 h-8 text-iconDark">
                   <use href="./images/icons.svg#icon-close-menu"></use>
                 </svg>
               </button>
@@ -43,7 +43,7 @@
               <li class="leading-0">
                 <a
                   href="./index.html"
-                  class="uppercase text-navHeader text-navMenu tracking-[.15rem] hover-line hover-line-top relative py-[0.243rem]"
+                  class="current-menu-header uppercase text-navHeader text-navMenu tracking-[.15rem] hover-line hover-line-top relative py-[0.243rem]"
                   >Главная</a
                 >
               </li>
@@ -84,7 +84,7 @@
           </nav>
         </div>
         <button id="menu-toggle" class="lg:hidden">
-          <svg class="w-6 h-6 text-iconDark">
+          <svg class="w-8 h-8 text-iconDark">
             <use href="./images/icons.svg#icon-open-menu"></use>
           </svg>
         </button>
@@ -232,7 +232,7 @@
                 >1</span
               >
               <p
-                class="text-colorText text-sm lg:text-[1.375rem] leading-[1.25rem] lg:leading-[2.25rem] font-noramal"
+                class="pl-[0.625rem] lg:pl-[1.25rem] xl:pl-0 text-colorText text-sm lg:text-[1.375rem] leading-[1.25rem] lg:leading-[2.25rem] font-noramal"
               >
                 Создание комфортных условий и повышение качества обслуживания клиентов
               </p>
@@ -245,6 +245,7 @@
                 class="text-[5.5rem] lg:text-[12.5rem] font-black text-listNuber leading-none font-['SF-Pro-Display']"
                 >2</span
               >
+
               <p
                 class="text-colorText text-sm lg:text-[1.375rem] leading-[1.25rem] lg:leading-[2.25rem] font-noramal"
               >
@@ -436,19 +437,21 @@
           <div class="w-full xl:w-2/12 text-center lg:text-left opacity-0 init-animate-2">
             <h4 class="mb-[1.563rem]">Информация</h4>
             <ul class="footer-menu text-white flex gap-4 flex-col">
-              <li class="transition-all duration-200 hover:translate-x-4 group">
-                <a class="group-hover:text-orange-200" href="./index.html">Главная</a>
+              <li class="transition-all duration-200 lg:hover:translate-x-4 group">
+                <a class="current-menu-footer group-hover:text-orange-200" href="./index.html"
+                  >Главная</a
+                >
               </li>
-              <li class="transition-all duration-200 hover:translate-x-4 group">
+              <li class="transition-all duration-200 lg:hover:translate-x-4 group">
                 <a class="group-hover:text-orange-200" href="#about">О компании</a>
               </li>
-              <li class="transition-all duration-200 hover:translate-x-4 group">
+              <li class="transition-all duration-200 lg:hover:translate-x-4 group">
                 <a class="group-hover:text-orange-200" href="#projects">Проекты</a>
               </li>
-              <li class="transition-all duration-200 hover:translate-x-4 group">
+              <li class="transition-all duration-200 lg:hover:translate-x-4 group">
                 <a class="group-hover:text-orange-200" href="#goals">Цели</a>
               </li>
-              <li class="transition-all duration-200 hover:translate-x-4 group">
+              <li class="transition-all duration-200 lg:hover:translate-x-4 group">
                 <a class="group-hover:text-orange-200" href="#contact">Контакты</a>
               </li>
             </ul>
@@ -459,7 +462,7 @@
             <address>
               <ul>
                 <li
-                  class="flex items-start gap-[0.938rem] text-white mb-[2.063rem] lg:mb-[3.75rem] justify-center lg:justify-start transition-all duration-200 group"
+                  class="w-[18rem] lg:w-full mx-auto lg:mx-0 flex items-start gap-[0.938rem] text-white mb-[2.063rem] lg:mb-[3.75rem] justify-center lg:justify-start transition-all duration-200 group"
                 >
                   <svg class="text-white w-8 h-[1.8rem]">
                     <use href="./images/icons.svg#icon-map"></use>
@@ -470,7 +473,8 @@
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                   >
-                    100000, Республика Казахстан, г. Караганда, ул. Телевизионная 10</a
+                    100000, Республика Казахстан, <br />
+                    г. Караганда, ул. Телевизионная 10</a
                   >
                 </li>
                 <li
@@ -557,6 +561,7 @@
       </div>
     </footer>
     <a
+      href="#"
       id="backToTop"
       class="hidden lg:block fixed bottom-[1rem] right-[3.125rem] cursor-pointer transition-all duration-200 hover:bottom-[1.2rem]"
     >
