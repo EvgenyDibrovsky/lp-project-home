@@ -1325,6 +1325,9 @@ video {
 .pb-\[1\.875rem\] {
   padding-bottom: 1.875rem;
 }
+.pl-\[0\.625rem\] {
+  padding-left: 0.625rem;
+}
 .pt-\[1\.875rem\] {
   padding-top: 1.875rem;
 }
@@ -1789,6 +1792,10 @@ a.current-menu-footer {
     padding-bottom: 7.5rem;
   }
 
+  .lg\:pl-\[1\.25rem\] {
+    padding-left: 1.25rem;
+  }
+
   .lg\:pt-\[3\.75rem\] {
     padding-top: 3.75rem;
   }
@@ -1902,6 +1909,10 @@ a.current-menu-footer {
 
   .xl\:gap-\[3\.75rem\] {
     gap: 3.75rem;
+  }
+
+  .xl\:pl-0 {
+    padding-left: 0px;
   }
 
   .xl\:pl-\[6\.25rem\] {
