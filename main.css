@@ -386,255 +386,251 @@ video {
   display: none;
 }
   html {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
   }
   @font-face {
-    font-family: "TT Hoves Hairline";
+    font-family: 'TT Hoves Hairline';
     src: url(fonts/e9e6158a76c34f77b202.eot);
-    src: local("TT Hoves Hairline Italic"), local("TTHoves-HairlineItalic"),
-      url(fonts/e9e6158a76c34f77b202.eot?#iefix)
-        format("embedded-opentype"),
-      url(fonts/396c3d474b39308003ea.woff2) format("woff2"),
-      url(fonts/9e46fa670a136575e3b8.woff) format("woff"),
-      url(fonts/b1317005206e778d0847.ttf) format("truetype");
+    src: local('TT Hoves Hairline Italic'), local('TTHoves-HairlineItalic'),
+      url(fonts/e9e6158a76c34f77b202.eot?#iefix) format('embedded-opentype'),
+      url(fonts/396c3d474b39308003ea.woff2) format('woff2'),
+      url(fonts/9e46fa670a136575e3b8.woff) format('woff'),
+      url(fonts/b1317005206e778d0847.ttf) format('truetype');
     font-weight: 100;
     font-style: italic;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/237d724da3011563083a.eot);
-    src: local("TT Hoves ExtraLight Italic"), local("TTHoves-ExtraLightItalic"),
-      url(fonts/237d724da3011563083a.eot?#iefix)
-        format("embedded-opentype"),
-      url(fonts/00a76952340d64b4432e.woff2) format("woff2"),
-      url(fonts/8cc193afd1f74ec7e4e6.woff) format("woff"),
-      url(fonts/4de5efa8c727da659293.ttf) format("truetype");
+    src: local('TT Hoves ExtraLight Italic'), local('TTHoves-ExtraLightItalic'),
+      url(fonts/237d724da3011563083a.eot?#iefix) format('embedded-opentype'),
+      url(fonts/00a76952340d64b4432e.woff2) format('woff2'),
+      url(fonts/8cc193afd1f74ec7e4e6.woff) format('woff'),
+      url(fonts/4de5efa8c727da659293.ttf) format('truetype');
     font-weight: 200;
     font-style: italic;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/df5191f876c999c2d467.eot);
-    src: local("TT Hoves Thin"), local("TTHoves-Thin"),
-      url(fonts/df5191f876c999c2d467.eot?#iefix) format("embedded-opentype"),
-      url(fonts/dc7908f8437e5278f225.woff2) format("woff2"),
-      url(fonts/32dcb2a9d464bc59d1a3.woff) format("woff"),
-      url(fonts/af5a990d287635969472.ttf) format("truetype");
+    src: local('TT Hoves Thin'), local('TTHoves-Thin'),
+      url(fonts/df5191f876c999c2d467.eot?#iefix) format('embedded-opentype'),
+      url(fonts/dc7908f8437e5278f225.woff2) format('woff2'),
+      url(fonts/32dcb2a9d464bc59d1a3.woff) format('woff'),
+      url(fonts/af5a990d287635969472.ttf) format('truetype');
     font-weight: 100;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/8feeefd7b077a5902065.eot);
-    src: local("TT Hoves DemiBold"), local("TTHoves-DemiBold"),
-      url(fonts/8feeefd7b077a5902065.eot?#iefix) format("embedded-opentype"),
-      url(fonts/b3865664ea62e512aaa3.woff2) format("woff2"),
-      url(fonts/214ebe4771cc7905a018.woff) format("woff"),
-      url(fonts/9f88b22cc90533ec5f8a.ttf) format("truetype");
+    src: local('TT Hoves DemiBold'), local('TTHoves-DemiBold'),
+      url(fonts/8feeefd7b077a5902065.eot?#iefix) format('embedded-opentype'),
+      url(fonts/b3865664ea62e512aaa3.woff2) format('woff2'),
+      url(fonts/214ebe4771cc7905a018.woff) format('woff'),
+      url(fonts/9f88b22cc90533ec5f8a.ttf) format('truetype');
     font-weight: 600;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/bc7d79e312e4b009b45f.eot);
-    src: local("TT Hoves Bold Italic"), local("TTHoves-BoldItalic"),
-      url(fonts/bc7d79e312e4b009b45f.eot?#iefix) format("embedded-opentype"),
-      url(fonts/0e099c882aa01613ea0c.woff2) format("woff2"),
-      url(fonts/5763ae2542adddeef786.woff) format("woff"),
-      url(fonts/8201ab6ae6bcec40b89c.ttf) format("truetype");
+    src: local('TT Hoves Bold Italic'), local('TTHoves-BoldItalic'),
+      url(fonts/bc7d79e312e4b009b45f.eot?#iefix) format('embedded-opentype'),
+      url(fonts/0e099c882aa01613ea0c.woff2) format('woff2'),
+      url(fonts/5763ae2542adddeef786.woff) format('woff'),
+      url(fonts/8201ab6ae6bcec40b89c.ttf) format('truetype');
     font-weight: bold;
     font-style: italic;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/84e977c368cbf203902d.eot);
-    src: local("TT Hoves Black"), local("TTHoves-Black"),
-      url(fonts/84e977c368cbf203902d.eot?#iefix) format("embedded-opentype"),
-      url(fonts/77b07f23c72dde66b37e.woff2) format("woff2"),
-      url(fonts/dc76316220597f449236.woff) format("woff"),
-      url(fonts/119920189c5db1ca7389.ttf) format("truetype");
+    src: local('TT Hoves Black'), local('TTHoves-Black'),
+      url(fonts/84e977c368cbf203902d.eot?#iefix) format('embedded-opentype'),
+      url(fonts/77b07f23c72dde66b37e.woff2) format('woff2'),
+      url(fonts/dc76316220597f449236.woff) format('woff'),
+      url(fonts/119920189c5db1ca7389.ttf) format('truetype');
     font-weight: 900;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/f7b7b6dfbce3c20f7390.eot);
-    src: local("TT Hoves ExtraLight"), local("TTHoves-ExtraLight"),
-      url(fonts/f7b7b6dfbce3c20f7390.eot?#iefix) format("embedded-opentype"),
-      url(fonts/1e0d625854d046d7902f.woff2) format("woff2"),
-      url(fonts/b5efb15f426629b20bac.woff) format("woff"),
-      url(fonts/9b1f45919fae946d0e3a.ttf) format("truetype");
+    src: local('TT Hoves ExtraLight'), local('TTHoves-ExtraLight'),
+      url(fonts/f7b7b6dfbce3c20f7390.eot?#iefix) format('embedded-opentype'),
+      url(fonts/1e0d625854d046d7902f.woff2) format('woff2'),
+      url(fonts/b5efb15f426629b20bac.woff) format('woff'),
+      url(fonts/9b1f45919fae946d0e3a.ttf) format('truetype');
     font-weight: 200;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/d2fb6909997b06fdfefe.eot);
-    src: local("TT Hoves Bold"), local("TTHoves-Bold"),
-      url(fonts/d2fb6909997b06fdfefe.eot?#iefix) format("embedded-opentype"),
-      url(fonts/4b37d9cb0d9fae531e68.woff2) format("woff2"),
-      url(fonts/0da342373d5b5bdb8a15.woff) format("woff"),
-      url(fonts/170a72c0ea1224530434.ttf) format("truetype");
+    src: local('TT Hoves Bold'), local('TTHoves-Bold'),
+      url(fonts/d2fb6909997b06fdfefe.eot?#iefix) format('embedded-opentype'),
+      url(fonts/4b37d9cb0d9fae531e68.woff2) format('woff2'),
+      url(fonts/0da342373d5b5bdb8a15.woff) format('woff'),
+      url(fonts/170a72c0ea1224530434.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/a10ba8ed0ac258bf2e82.eot);
-    src: local("TT Hoves Thin Italic"), local("TTHoves-ThinItalic"),
-      url(fonts/a10ba8ed0ac258bf2e82.eot?#iefix) format("embedded-opentype"),
-      url(fonts/5ff5767c4f6eb510fa3a.woff2) format("woff2"),
-      url(fonts/1a69f94aaa759436df32.woff) format("woff"),
-      url(fonts/556f5311323cce5f243c.ttf) format("truetype");
+    src: local('TT Hoves Thin Italic'), local('TTHoves-ThinItalic'),
+      url(fonts/a10ba8ed0ac258bf2e82.eot?#iefix) format('embedded-opentype'),
+      url(fonts/5ff5767c4f6eb510fa3a.woff2) format('woff2'),
+      url(fonts/1a69f94aaa759436df32.woff) format('woff'),
+      url(fonts/556f5311323cce5f243c.ttf) format('truetype');
     font-weight: 100;
     font-style: italic;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/01f896035d82d37388cb.eot);
-    src: local("TT Hoves Italic"), local("TTHoves-Italic"),
-      url(fonts/01f896035d82d37388cb.eot?#iefix) format("embedded-opentype"),
-      url(fonts/d68499930a3025a06289.woff2) format("woff2"),
-      url(fonts/ed769002a034db4eaf47.woff) format("woff"),
-      url(fonts/e2647303fb25a5e97220.ttf) format("truetype");
+    src: local('TT Hoves Italic'), local('TTHoves-Italic'),
+      url(fonts/01f896035d82d37388cb.eot?#iefix) format('embedded-opentype'),
+      url(fonts/d68499930a3025a06289.woff2) format('woff2'),
+      url(fonts/ed769002a034db4eaf47.woff) format('woff'),
+      url(fonts/e2647303fb25a5e97220.ttf) format('truetype');
     font-weight: normal;
     font-style: italic;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/6f8a89b53f9f20356ce1.eot);
-    src: local("TT Hoves Black Italic"), local("TTHoves-BlackItalic"),
-      url(fonts/6f8a89b53f9f20356ce1.eot?#iefix) format("embedded-opentype"),
-      url(fonts/a7e08e7a22ec1313ccbf.woff2) format("woff2"),
-      url(fonts/55d1201ac85e3438ae43.woff) format("woff"),
-      url(fonts/86a31d254f99aa98382e.ttf) format("truetype");
+    src: local('TT Hoves Black Italic'), local('TTHoves-BlackItalic'),
+      url(fonts/6f8a89b53f9f20356ce1.eot?#iefix) format('embedded-opentype'),
+      url(fonts/a7e08e7a22ec1313ccbf.woff2) format('woff2'),
+      url(fonts/55d1201ac85e3438ae43.woff) format('woff'),
+      url(fonts/86a31d254f99aa98382e.ttf) format('truetype');
     font-weight: 900;
     font-style: italic;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/8c2e3848e531c19de9aa.eot);
-    src: local("TT Hoves ExtraBold"), local("TTHoves-ExtraBold"),
-      url(fonts/8c2e3848e531c19de9aa.eot?#iefix) format("embedded-opentype"),
-      url(fonts/f07ea5491e11ac4793fa.woff2) format("woff2"),
-      url(fonts/9fc6b6a7e3c2ed5f449c.woff) format("woff"),
-      url(fonts/d065fa41b16fbd51e41d.ttf) format("truetype");
+    src: local('TT Hoves ExtraBold'), local('TTHoves-ExtraBold'),
+      url(fonts/8c2e3848e531c19de9aa.eot?#iefix) format('embedded-opentype'),
+      url(fonts/f07ea5491e11ac4793fa.woff2) format('woff2'),
+      url(fonts/9fc6b6a7e3c2ed5f449c.woff) format('woff'),
+      url(fonts/d065fa41b16fbd51e41d.ttf) format('truetype');
     font-weight: 800;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/72520b703357f2181ab8.eot);
-    src: local("TT Hoves DemiBold Italic"), local("TTHoves-DemiBoldItalic"),
-      url(fonts/72520b703357f2181ab8.eot?#iefix)
-        format("embedded-opentype"),
-      url(fonts/ad6199ea627abaae12f8.woff2) format("woff2"),
-      url(fonts/bfd14ae495d390158bcf.woff) format("woff"),
-      url(fonts/3f070d7a209ff71146d7.ttf) format("truetype");
+    src: local('TT Hoves DemiBold Italic'), local('TTHoves-DemiBoldItalic'),
+      url(fonts/72520b703357f2181ab8.eot?#iefix) format('embedded-opentype'),
+      url(fonts/ad6199ea627abaae12f8.woff2) format('woff2'),
+      url(fonts/bfd14ae495d390158bcf.woff) format('woff'),
+      url(fonts/3f070d7a209ff71146d7.ttf) format('truetype');
     font-weight: 600;
     font-style: italic;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/d6e81eb686447c6eb637.eot);
-    src: local("TT Hoves Medium Italic"), local("TTHoves-MediumItalic"),
-      url(fonts/d6e81eb686447c6eb637.eot?#iefix) format("embedded-opentype"),
-      url(fonts/2f31961ca5b37cc1cb2b.woff2) format("woff2"),
-      url(fonts/f5f5951e712bc70fb0d4.woff) format("woff"),
-      url(fonts/5422c459bfd380c31edf.ttf) format("truetype");
+    src: local('TT Hoves Medium Italic'), local('TTHoves-MediumItalic'),
+      url(fonts/d6e81eb686447c6eb637.eot?#iefix) format('embedded-opentype'),
+      url(fonts/2f31961ca5b37cc1cb2b.woff2) format('woff2'),
+      url(fonts/f5f5951e712bc70fb0d4.woff) format('woff'),
+      url(fonts/5422c459bfd380c31edf.ttf) format('truetype');
     font-weight: 500;
     font-style: italic;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/19574b9ade586f685d8b.eot);
-    src: local("TT Hoves ExtraBold Italic"), local("TTHoves-ExtraBoldItalic"),
-      url(fonts/19574b9ade586f685d8b.eot?#iefix)
-        format("embedded-opentype"),
-      url(fonts/dfe39513aa41b803e9fc.woff2) format("woff2"),
-      url(fonts/cb2eeff98434fca7a323.woff) format("woff"),
-      url(fonts/919962f71995930346cb.ttf) format("truetype");
+    src: local('TT Hoves ExtraBold Italic'), local('TTHoves-ExtraBoldItalic'),
+      url(fonts/19574b9ade586f685d8b.eot?#iefix) format('embedded-opentype'),
+      url(fonts/dfe39513aa41b803e9fc.woff2) format('woff2'),
+      url(fonts/cb2eeff98434fca7a323.woff) format('woff'),
+      url(fonts/919962f71995930346cb.ttf) format('truetype');
     font-weight: 800;
     font-style: italic;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/44cde037deea3d2964f9.eot);
-    src: local("TT Hoves Regular"), local("TTHoves-Regular"),
-      url(fonts/44cde037deea3d2964f9.eot?#iefix) format("embedded-opentype"),
-      url(fonts/2cb6726809285d301e2b.woff2) format("woff2"),
-      url(fonts/495bcecc479d22afb699.woff) format("woff"),
-      url(fonts/22badb647628141aaacb.ttf) format("truetype");
+    src: local('TT Hoves Regular'), local('TTHoves-Regular'),
+      url(fonts/44cde037deea3d2964f9.eot?#iefix) format('embedded-opentype'),
+      url(fonts/2cb6726809285d301e2b.woff2) format('woff2'),
+      url(fonts/495bcecc479d22afb699.woff) format('woff'),
+      url(fonts/22badb647628141aaacb.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "TT Hoves Hairline";
+    font-family: 'TT Hoves Hairline';
     src: url(fonts/4b7099906439511d067c.eot);
-    src: local("TT Hoves Hairline"), local("TTHoves-Hairline"),
-      url(fonts/4b7099906439511d067c.eot?#iefix) format("embedded-opentype"),
-      url(fonts/a0a303a91b073ef219c8.woff2) format("woff2"),
-      url(fonts/021efe8e5d6d0eac3147.woff) format("woff"),
-      url(fonts/44dca945d1420c196b8f.ttf) format("truetype");
+    src: local('TT Hoves Hairline'), local('TTHoves-Hairline'),
+      url(fonts/4b7099906439511d067c.eot?#iefix) format('embedded-opentype'),
+      url(fonts/a0a303a91b073ef219c8.woff2) format('woff2'),
+      url(fonts/021efe8e5d6d0eac3147.woff) format('woff'),
+      url(fonts/44dca945d1420c196b8f.ttf) format('truetype');
     font-weight: 100;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/7033b9a5ff145850b0ef.eot);
-    src: local("TT Hoves Light Italic"), local("TTHoves-LightItalic"),
-      url(fonts/7033b9a5ff145850b0ef.eot?#iefix) format("embedded-opentype"),
-      url(fonts/8dde6a7d4866a97375b9.woff2) format("woff2"),
-      url(fonts/457f014064d1e348883a.woff) format("woff"),
-      url(fonts/eb60515b3b1036761831.ttf) format("truetype");
+    src: local('TT Hoves Light Italic'), local('TTHoves-LightItalic'),
+      url(fonts/7033b9a5ff145850b0ef.eot?#iefix) format('embedded-opentype'),
+      url(fonts/8dde6a7d4866a97375b9.woff2) format('woff2'),
+      url(fonts/457f014064d1e348883a.woff) format('woff'),
+      url(fonts/eb60515b3b1036761831.ttf) format('truetype');
     font-weight: 300;
     font-style: italic;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/367f3857028ec203c9fa.eot);
-    src: local("TT Hoves Light"), local("TTHoves-Light"),
-      url(fonts/367f3857028ec203c9fa.eot?#iefix) format("embedded-opentype"),
-      url(fonts/f28520f14f038ba4cf07.woff2) format("woff2"),
-      url(fonts/cd3f06180c6b1412194b.woff) format("woff"),
-      url(fonts/ff447b186f99becf2ff2.ttf) format("truetype");
+    src: local('TT Hoves Light'), local('TTHoves-Light'),
+      url(fonts/367f3857028ec203c9fa.eot?#iefix) format('embedded-opentype'),
+      url(fonts/f28520f14f038ba4cf07.woff2) format('woff2'),
+      url(fonts/cd3f06180c6b1412194b.woff) format('woff'),
+      url(fonts/ff447b186f99becf2ff2.ttf) format('truetype');
     font-weight: 300;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "TT Hoves";
+    font-family: 'TT Hoves';
     src: url(fonts/ef6a182f97d4e4427640.eot);
-    src: local("TT Hoves Medium"), local("TTHoves-Medium"),
-      url(fonts/ef6a182f97d4e4427640.eot?#iefix) format("embedded-opentype"),
-      url(fonts/51cd7342af80b8761920.woff2) format("woff2"),
-      url(fonts/ef8091b673986d9ed496.woff) format("woff"),
-      url(fonts/c84646119459f89cd0d4.ttf) format("truetype");
+    src: local('TT Hoves Medium'), local('TTHoves-Medium'),
+      url(fonts/ef6a182f97d4e4427640.eot?#iefix) format('embedded-opentype'),
+      url(fonts/51cd7342af80b8761920.woff2) format('woff2'),
+      url(fonts/ef8091b673986d9ed496.woff) format('woff'),
+      url(fonts/c84646119459f89cd0d4.ttf) format('truetype');
     font-weight: 500;
     font-style: normal;
   }
   @font-face {
-    font-family: "SF-Pro-Display";
-    src: local("SF-Pro-Display-Black"), local("SF-Pro-Display-Black"),
-      url(fonts/279f6eea30f2fa5ea6ce.ttf) format("truetype");
+    font-family: 'SF-Pro-Display';
+    src: local('SF-Pro-Display-Black'), local('SF-Pro-Display-Black'),
+      url(fonts/279f6eea30f2fa5ea6ce.ttf) format('truetype');
     font-weight: 900;
     font-style: normal;
   }
@@ -671,6 +667,21 @@ video {
     font-size: 4rem;
     line-height: 4rem;
   }
+}
+  h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+  address {
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 *, ::before, ::after {
@@ -827,6 +838,7 @@ video {
 /* swiper-pagination */
 .swiper-current,
   .swiper-total {
+  width: 23.98px;
   font-size: 1.3rem;
   --tw-text-opacity: 1;
   color: rgb(189 189 189 / var(--tw-text-opacity));
@@ -873,6 +885,9 @@ video {
 .bottom-0 {
   bottom: 0px;
 }
+.bottom-\[1rem\] {
+  bottom: 1rem;
+}
 .left-0 {
   left: 0px;
 }
@@ -890,6 +905,9 @@ video {
 }
 .right-0 {
   right: 0px;
+}
+.right-\[3\.125rem\] {
+  right: 3.125rem;
 }
 .top-0 {
   top: 0px;
@@ -938,11 +956,20 @@ video {
 .mb-\[1\.375rem\] {
   margin-bottom: 1.375rem;
 }
+.mb-\[1\.563rem\] {
+  margin-bottom: 1.563rem;
+}
 .mb-\[1\.875rem\] {
   margin-bottom: 1.875rem;
 }
+.mb-\[2\.063rem\] {
+  margin-bottom: 2.063rem;
+}
 .mb-\[2rem\] {
   margin-bottom: 2rem;
+}
+.mb-\[3\.75rem\] {
+  margin-bottom: 3.75rem;
 }
 .ml-4 {
   margin-left: 1rem;
@@ -962,17 +989,32 @@ video {
 .grid {
   display: grid;
 }
+.hidden {
+  display: none;
+}
+.h-4 {
+  height: 1rem;
+}
 .h-40 {
   height: 10rem;
+}
+.h-5 {
+  height: 1.25rem;
 }
 .h-6 {
   height: 1.5rem;
 }
+.h-8 {
+  height: 2rem;
+}
+.h-\[0\.5rem\] {
+  height: 0.5rem;
+}
+.h-\[1\.8rem\] {
+  height: 1.8rem;
+}
 .h-\[2\.875rem\] {
   height: 2.875rem;
-}
-.h-\[26\.063rem\] {
-  height: 26.063rem;
 }
 .h-\[4\.438rem\] {
   height: 4.438rem;
@@ -1004,17 +1046,29 @@ video {
 .min-h-\[25\.188rem\] {
   min-height: 25.188rem;
 }
+.w-4 {
+  width: 1rem;
+}
 .w-4\/12 {
   width: 33.333333%;
 }
 .w-6 {
   width: 1.5rem;
 }
+.w-8 {
+  width: 2rem;
+}
 .w-8\/12 {
   width: 66.666667%;
 }
 .w-80 {
   width: 20rem;
+}
+.w-\[1\.075rem\] {
+  width: 1.075rem;
+}
+.w-\[1\.375rem\] {
+  width: 1.375rem;
 }
 .w-full {
   width: 100%;
@@ -1046,6 +1100,10 @@ video {
 }
 .rotate-180 {
   --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.-skew-x-\[22deg\] {
+  --tw-skew-x: -22deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .transform {
@@ -1124,6 +1182,9 @@ video {
 .animate-animate-5 {
   animation: slide-right-el 1s ease-out;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 .resize-none {
   resize: none;
 }
@@ -1141,6 +1202,9 @@ video {
 .flex-col-reverse {
   flex-direction: column-reverse;
 }
+.items-start {
+  align-items: flex-start;
+}
 .items-center {
   align-items: center;
 }
@@ -1149,6 +1213,9 @@ video {
 }
 .justify-between {
   justify-content: space-between;
+}
+.gap-10 {
+  gap: 2.5rem;
 }
 .gap-4 {
   gap: 1rem;
@@ -1159,11 +1226,17 @@ video {
 .gap-\[0\.75rem\] {
   gap: 0.75rem;
 }
+.gap-\[0\.938rem\] {
+  gap: 0.938rem;
+}
 .gap-\[1\.434rem\] {
   gap: 1.434rem;
 }
 .gap-\[1\.875rem\] {
   gap: 1.875rem;
+}
+.gap-\[4\.375rem\] {
+  gap: 4.375rem;
 }
 .gap-y-\[1\.875rem\] {
   row-gap: 1.875rem;
@@ -1179,6 +1252,9 @@ video {
 }
 .border-t {
   border-top-width: 1px;
+}
+.border-borderFooter {
+  border-color: rgba(255, 255, 255, 0.10);
 }
 .bg-bgAboutBox {
   --tw-bg-opacity: 1;
@@ -1205,6 +1281,15 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.fill-iconDark {
+  fill: #333;
+}
+.fill-iconLight {
+  fill: #fff;
+}
+.fill-white {
+  fill: #fff;
 }
 .object-cover {
   -o-object-fit: cover;
@@ -1237,23 +1322,20 @@ video {
 .pb-\[1\.875rem\] {
   padding-bottom: 1.875rem;
 }
-.pb-\[7\.5rem\] {
-  padding-bottom: 7.5rem;
-}
 .pt-\[1\.875rem\] {
   padding-top: 1.875rem;
 }
 .pt-\[3\.625rem\] {
   padding-top: 3.625rem;
 }
-.pt-\[3\.75rem\] {
-  padding-top: 3.75rem;
-}
 .text-center {
   text-align: center;
 }
 .font-\[\'SF-Pro-Display\'\] {
   font-family: 'SF-Pro-Display';
+}
+.text-\[1\.4rem\] {
+  font-size: 1.4rem;
 }
 .text-\[1rem\] {
   font-size: 1rem;
@@ -1312,6 +1394,10 @@ video {
 .text-\[\#C8C8C880\] {
   color: #C8C8C880;
 }
+.text-\[\#E0E0E0\] {
+  --tw-text-opacity: 1;
+  color: rgb(224 224 224 / var(--tw-text-opacity));
+}
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1324,6 +1410,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(51 51 51 / var(--tw-text-opacity));
 }
+.text-iconDark {
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
 .text-listNuber {
   --tw-text-opacity: 1;
   color: rgb(242 242 242 / var(--tw-text-opacity));
@@ -1331,6 +1421,10 @@ video {
 .text-navHeader {
   --tw-text-opacity: 1;
   color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+.text-orange-200 {
+  --tw-text-opacity: 1;
+  color: rgb(254 215 170 / var(--tw-text-opacity));
 }
 .text-red-500 {
   --tw-text-opacity: 1;
@@ -1374,7 +1468,7 @@ video {
     position: relative;
   }
 .hover-line::after {
-    content: "";
+    content: '';
     display: block;
     height: 1px;
     background: black;
@@ -1382,14 +1476,15 @@ video {
     transform-origin: left;
     transition: transform 0.3s;
   }
-.hover-line:hover::after {
+.hover-line.current-mrnu-header::after,
+  .hover-line:hover::after {
     transform: scaleX(1);
   }
 .hover-line-top {
     position: relative;
   }
 .hover-line-top::before {
-    content: "";
+    content: '';
     display: block;
     height: 1px;
     background: black;
@@ -1397,27 +1492,16 @@ video {
     transform-origin: right;
     transition: transform 0.3s;
   }
-.hover-line-top:hover::before {
+.hover-line-top.current-mrnu-header::before,
+  .hover-line-top:hover::before {
     transform: scaleX(1);
   }
-/* .active-line::after,
-  .active-line-top::before {
-    content: "";
-    position: absolute;
-    display: block;
-    height: 1px;
-    width: 100%;
-    background: black;
-  }
-
-  .active-line::after {
-    bottom: 0;
-  }
-
-  .active-line-top::before {
-    top: 0;
-  } */
-.contact-form input[type="checkbox"] {
+a.current-mrnu-footer {
+  margin-left: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(254 215 170 / var(--tw-text-opacity));
+}
+.contact-form input[type='checkbox'] {
   display: inline-flex;
   height: 1.25rem;
   width: 1.25rem;
@@ -1432,12 +1516,12 @@ video {
   outline-style: solid;
   outline-width: 2px;
 }
-.contact-form input[type="checkbox"]:checked {
+.contact-form input[type='checkbox']:checked {
   border-width: 4px;
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(254 215 170 / var(--tw-bg-opacity));
+  background-color: rgb(51 51 51 / var(--tw-bg-opacity));
 }
 .after\:absolute::after {
   content: var(--tw-content);
@@ -1476,9 +1560,19 @@ video {
   --tw-content: '';
   content: var(--tw-content);
 }
+.hover\:bottom-\[1\.2rem\]:hover {
+  bottom: 1.2rem;
+}
+.hover\:translate-x-4:hover {
+  --tw-translate-x: 1rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .hover\:bg-bgHoverBtn:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(249 249 249 / var(--tw-bg-opacity));
+}
+.hover\:fill-orange-200:hover {
+  fill: #fed7aa;
 }
 .hover\:underline:hover {
   text-decoration-line: underline;
@@ -1489,6 +1583,10 @@ video {
 .group:hover .group-hover\:translate-x-2 {
   --tw-translate-x: 0.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.group:hover .group-hover\:text-orange-200 {
+  --tw-text-opacity: 1;
+  color: rgb(254 215 170 / var(--tw-text-opacity));
 }
 @media (min-width: 768px) {
 
@@ -1532,6 +1630,11 @@ video {
     grid-column-start: 9;
   }
 
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1562,6 +1665,10 @@ video {
 
   .lg\:mt-\[21rem\] {
     margin-top: 21rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:flex {
@@ -1670,12 +1777,28 @@ video {
     padding-bottom: 5.625rem;
   }
 
+  .lg\:pb-\[7\.5rem\] {
+    padding-bottom: 7.5rem;
+  }
+
+  .lg\:pt-\[3\.75rem\] {
+    padding-top: 3.75rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
   .lg\:text-\[1\.375rem\] {
     font-size: 1.375rem;
   }
 
   .lg\:text-\[12\.5rem\] {
     font-size: 12.5rem;
+  }
+
+  .lg\:text-\[2\.125rem\] {
+    font-size: 2.125rem;
   }
 
   .lg\:text-\[3\.2rem\] {
@@ -1718,6 +1841,18 @@ video {
 
   .xl\:hidden {
     display: none;
+  }
+
+  .xl\:w-2\/12 {
+    width: 16.666667%;
+  }
+
+  .xl\:w-3\/12 {
+    width: 25%;
+  }
+
+  .xl\:w-4\/12 {
+    width: 33.333333%;
   }
 
   .xl\:w-\[25\.813rem\] {
