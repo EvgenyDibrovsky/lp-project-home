@@ -1511,8 +1511,8 @@ a.current-menu-footer {
 }
 .contact-form input[type='checkbox'] {
   display: inline-flex;
-  height: 1.25rem;
-  width: 1.25rem;
+  height: 1rem;
+  width: 1rem;
   cursor: pointer;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1520,7 +1520,7 @@ a.current-menu-footer {
   border-width: 4px;
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-  padding-left: 0.8rem;
+  padding-left: 0.5rem;
   outline-style: solid;
   outline-width: 2px;
 }
