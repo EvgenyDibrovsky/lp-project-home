@@ -1476,7 +1476,7 @@ video {
     transform-origin: left;
     transition: transform 0.3s;
   }
-.hover-line.current-mrnu-header::after,
+.hover-line.current-menu-header::after,
   .hover-line:hover::after {
     transform: scaleX(1);
   }
@@ -1492,11 +1492,11 @@ video {
     transform-origin: right;
     transition: transform 0.3s;
   }
-.hover-line-top.current-mrnu-header::before,
+.hover-line-top.current-menu-header::before,
   .hover-line-top:hover::before {
     transform: scaleX(1);
   }
-a.current-mrnu-footer {
+a.current-menu-footer {
   margin-left: 1rem;
   --tw-text-opacity: 1;
   color: rgb(254 215 170 / var(--tw-text-opacity));
