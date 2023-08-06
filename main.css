@@ -1070,6 +1070,9 @@ video {
 .w-\[1\.375rem\] {
   width: 1.375rem;
 }
+.w-\[18rem\] {
+  width: 18rem;
+}
 .w-full {
   width: 100%;
 }
@@ -1497,9 +1500,14 @@ video {
     transform: scaleX(1);
   }
 a.current-menu-footer {
-  margin-left: 1rem;
   --tw-text-opacity: 1;
   color: rgb(254 215 170 / var(--tw-text-opacity));
+}
+@media (min-width: 768px) {
+
+  a.current-menu-footer {
+    margin-left: 1rem;
+  }
 }
 .contact-form input[type='checkbox'] {
   display: inline-flex;
@@ -1562,10 +1570,6 @@ a.current-menu-footer {
 }
 .hover\:bottom-\[1\.2rem\]:hover {
   bottom: 1.2rem;
-}
-.hover\:translate-x-4:hover {
-  --tw-translate-x: 1rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .hover\:bg-bgHoverBtn:hover {
   --tw-bg-opacity: 1;
@@ -1703,6 +1707,10 @@ a.current-menu-footer {
     width: auto;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:max-w-\[16\.875rem\] {
     max-width: 16.875rem;
   }
@@ -1811,6 +1819,11 @@ a.current-menu-footer {
 
   .lg\:transition-none {
     transition-property: none;
+  }
+
+  .lg\:hover\:translate-x-4:hover {
+    --tw-translate-x: 1rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 }
 @media (min-width: 1440px) {
