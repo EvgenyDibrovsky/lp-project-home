@@ -24,7 +24,7 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
         generator: {
-          filename: "image/[hash][ext][query]",
+          filename: "images/[hash][ext][query]",
         },
       },
       {
@@ -43,7 +43,7 @@ module.exports = {
     new MiniCssExtractPlugin(),
     new CopyPlugin({
       patterns: [
-        { from: "src/image", to: "image" },
+        { from: "src/images", to: "images" },
         { from: "src/js", to: "js" },
       ],
     }),
